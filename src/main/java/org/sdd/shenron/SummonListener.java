@@ -28,7 +28,7 @@ public class SummonListener implements IMessageListener
             Shenron.get().sendMessage(mdBold("UN HUMAIN TEL QUE VOUS N'EST PAS APTE A FAIRE APPARAITRE SHENRON !"), event.getConversation());
         }
         
-        if (distance < 5 || message.replace("î", "i").contains("listencompagny"))
+        if (distance < 5 || message.contains("listencompagny"))
         {
             Shenron.get().sendMessage(mdBold("@Compagny912 est un dieu, écoutez le!"), event.getConversation());
         }
